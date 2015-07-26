@@ -45,9 +45,9 @@ You can refer to jquery in your template with::
 
 Admin template customization::
 
-    {% load staticfiles %}
-
     {% extends "admin/base_site.html" %}
+
+    {% load staticfiles %}
 
     {% block extrahead %}
         <script type="text/javascript" src="{% static 'static_jquery/js/jquery.js' %}" />
