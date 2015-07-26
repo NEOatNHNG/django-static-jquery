@@ -50,7 +50,7 @@ Admin template customization::
     {% extends "admin/base_site.html" %}
 
     {% block extrahead %}
-        <script type="text/javascript" src="{% static 'static_jquery/js/jquery.js' %}" />
+        <script type="text/javascript" src="{% static 'static_jquery/js/jquery.js' %}" ></script>
     {% endblock %}
 
 Static files::
